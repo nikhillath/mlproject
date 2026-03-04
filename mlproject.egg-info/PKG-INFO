@@ -6,3 +6,6 @@ Author-email: lathnikhil2@gmail.com
 Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: seaborn
+Requires-Dist: catboost
+Requires-Dist: xgboost
+Requires-Dist: dill
