@@ -16,7 +16,7 @@ app=application
 def home():
     return render_template('home.html')
 
-@app.route('/predict_data',methods=['Get','POST'])
+@app.route('/predict_data',methods=['GET','POST'])
 def predict_datapoint():
     if request.method=='GET':
         return render_template('predict.html')
