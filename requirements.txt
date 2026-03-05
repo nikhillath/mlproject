@@ -1,7 +1,7 @@
-pandas
-numpy
-dill
 flask
 gunicorn
+numpy
+pandas
+dill
 scikit-learn
 -e .
