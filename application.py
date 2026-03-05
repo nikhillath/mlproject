@@ -20,7 +20,6 @@ def home():
 def predict_datapoint():
     if request.method=='GET':
         return render_template('predict.html')
-    
     else:
         data=CustomData(
             gender=request.form.get("gender"),
